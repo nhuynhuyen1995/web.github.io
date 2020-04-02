@@ -10,4 +10,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TeduCoreShop.Application\TeduCoreShop.Application.csproj" />
+    <ProjectReference Include="..\TeduCoreShop.Data.EF\TeduCoreShop.Data.EF.csproj" />
+    <ProjectReference Include="..\TeduCoreShop.Data\TeduCoreShop.Data.csproj" />
+    <ProjectReference Include="..\TeduCoreShop.Infrastructure\TeduCoreShop.Infrastructure.csproj" />
+    <ProjectReference Include="..\TeduCoreShop.Utilities\TeduCoreShop.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

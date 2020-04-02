@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementation\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeduCoreShop.Data.EF\TeduCoreShop.Data.EF.csproj" />
+    <ProjectReference Include="..\TeduCoreShop.Data\TeduCoreShop.Data.csproj" />
+    <ProjectReference Include="..\TeduCoreShop.Utilities\TeduCoreShop.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
